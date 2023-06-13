@@ -3,14 +3,15 @@ package Geometri;
 public class PersegiPanjang {
 double panjang,lebar;
 
-public Lingkaran(double panjang, double lebar){
+public PersegiPanjang(double panjang, double lebar){
     
-    this.panjang = p;
-    this.lebar = l;
+    this.panjang = panjang;
+    this.lebar = lebar;
 }
-public double luas(){
-    return p * l;
+public double Lkotak(){
+    return panjang * lebar;
 }
-public double keliling(){
-    return 2 * (p + l);
+public double Kkotak(){
+    return 2 * (panjang + lebar);
+}
 }

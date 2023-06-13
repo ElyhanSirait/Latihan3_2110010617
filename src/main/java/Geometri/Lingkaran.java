@@ -3,18 +3,20 @@ package Geometri;
 
 public class Lingkaran {
  
-    double jari2;
+    double radius,phi;
+    
    
 public Lingkaran(double radius){
     
-    this.jari2 = r;
+    this.radius = radius;
+    this.phi = 3.14;
 }
 
 public double luas(){
-    return 3.14 * r * r;
+    return phi * radius * radius;
 }
 public double keliling(){
-    return 2 * 3.14 * r;
+    return 2 * 3.14 * radius;
 }
 
 }
