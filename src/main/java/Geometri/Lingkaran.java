@@ -1,24 +1,21 @@
-
 package Geometri;
 
 public class Lingkaran {
+
+    static String keliling;
+    static String luas;
+ double radius;
  
-    double radius,phi;
-    
-   
-public Lingkaran(double radius){
-    
-    this.radius = radius;
-    this.phi = 3.14;
+ public Lingkaran(double radius){
+     this.radius = radius;
+ }
+ 
+ public double luas(){
+     return Math.PI*radius*radius;
+ }
+ 
+ public double keliling(){
+     return 2*Math.PI*radius;
+ }
 }
-
-public double luas(){
-    return phi * radius * radius;
-}
-public double keliling(){
-    return 2 * 3.14 * radius;
-}
-
-}
-
 
