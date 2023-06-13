@@ -1,17 +1,25 @@
 package Geometri;
 
 public class PersegiPanjang {
-double panjang,lebar;
 
-public PersegiPanjang(double panjang, double lebar){
+    static String luas;
+    static String keliling;
     
-    this.panjang = panjang;
-    this.lebar = lebar;
-}
-public double Lkotak(){
-    return panjang * lebar;
-}
-public double Kkotak(){
-    return 2 * (panjang + lebar);
-}
+    double panjang,lebar;
+     
+    
+    
+    public PersegiPanjang(double panjang,double lebar){
+     this.panjang = panjang;
+     this.lebar = lebar;
+ }
+ 
+ public double luas(){
+     return panjang * lebar;
+ }
+ 
+ public double keliling(){
+     return 2*(panjang + lebar);
+ }
+    
 }
